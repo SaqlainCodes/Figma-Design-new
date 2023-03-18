@@ -6,3 +6,76 @@
     --light-blue-color:#6F7DFB;
 
 }
+ .container{
+    background-color: #057ADA;
+ } 
+
+  /*--------Header--------*/
+  .logo h2{
+   font-size: 40px;
+   font-weight: bold;
+    color: white;
+   
+  }
+.header{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+     
+}
+.nav-menu ul{
+     display: flex;
+}
+ .nav-menu ul li{
+    list-style: none;
+     
+ }
+ .nav-menu ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+    font-size: 20px;
+   
+ }
+    
+  .Enrol-bttn{
+    background-color: #070917;
+    border-radius: 5px;
+    padding: 10px;
+
+ }
+
+  /*-----Hero-Section------*/
+  .hero-section{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+     
+  }
+  .left-side h2{
+    font-size: 40px;
+    font-weight: bold;
+     color: white;
+
+  }
+
+ .left-side p{
+    color: white;
+ }
+
+ .hero-button{
+    background-color: #DA722C;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-top: 20px; 
+
+ }
+ .course-section{
+   display: flex;
+ }
+
+ .profile{
+   display: flex;
+ }
