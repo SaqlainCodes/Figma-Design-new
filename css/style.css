@@ -25,6 +25,7 @@
 }
 .nav-menu ul{
      display: flex;
+     align-items: center;
 }
  .nav-menu ul li{
     list-style: none;
@@ -38,10 +39,12 @@
    
  }
     
-  .Enrol-bttn{
+ .enrol-buttn{
     background-color: #070917;
-    border-radius: 5px;
-    padding: 10px;
+    padding: 14px;
+    border-radius: 8px;
+     
+   
 
  }
 
@@ -49,8 +52,14 @@
   .hero-section{
     display: flex;
     justify-content: space-around;
-    padding-left: 100px;
+    padding-left: 78px;
      
+  }
+  .left-side{
+   width: 45% ;
+  }
+  .right-side{
+    width: 45%;
   }
   .left-side h2{
     font-size: 40px;
@@ -72,10 +81,76 @@
     margin-top: 20px; 
 
  }
- .course-section{
+
+ /*-----course-section-----*/
+  .testimonial-section{
+   background-color: white;
    display: flex;
+   justify-content: space-around;
+   padding: 50px;
+
+
+ }
+
+ /*----testimonial-left section------*/
+ .testimonial-left{
+   width: 30%;
+ }
+ .testimonial-right{
+   width: 60%;
  }
 
  .profile{
    display: flex;
+   justify-content: space-around;
+   margin-top: -15px;
  }
+
+ .box-1{
+    border:  1px solid red;
+    margin-bottom: 20px;
+    border-radius: 10px;
+ }
+
+ .profile-text{
+ background-color: orangered;
+  padding: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+ }
+
+  .name{
+   padding: 25px;
+  }
+  .name h3{
+   margin-bottom: 0px;
+   font-size: 20px;
+  }
+ 
+ .box-2{
+   border: 1px solid red;
+   margin-top: 20px;
+   border-radius: 10px;
+ }
+
+
+ /*----Testimonial Right Section-------*/
+ .testimonial-right h3{
+   color: #023047;
+   font-size: 40px;
+   font-weight: bold;
+ }
+
+ .testimonial-right p{
+   font-size: 20px;
+ }
+
+.learn-btn{
+   background-color: #DA722C;
+   color: white;
+   padding: 10px 25px;
+   border-radius: 8px;
+   font-size: 18px;
+   margin-top: 20px; 
+}
