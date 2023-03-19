@@ -154,3 +154,57 @@
    font-size: 18px;
    margin-top: 20px; 
 }
+
+/*---courses section------*/
+.courses-section{
+   
+  text-align: center;
+  
+}
+
+ .courses-section h2{
+  font-size: 40px;
+  color: white;
+ }
+ .game-col{
+  background-color: white;
+ }
+.utility col{
+  background-color: white;
+}
+
+
+.row-courses{
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-sec{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.text-sec h4{
+  font-size: 30px;
+}
+
+.button-courses{
+  display: flex;
+  justify-content: end;
+   margin-bottom: 20px;
+   margin-right: 20px;
+}
+ .All-courses-btn {
+  background-color: #DA722C;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
