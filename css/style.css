@@ -57,9 +57,15 @@
   }
   .left-side{
    width: 45% ;
+   padding-left: 45px;
   }
+  
   .right-side{
     width: 45%;
+  }
+
+  .right-side img{
+    width: 100%;
   }
   .left-side h2{
     font-size: 40px;
@@ -82,7 +88,7 @@
 
  }
 
- /*-----course-section-----*/
+  /*----testimonial-left section------*/
   .testimonial-section{
    background-color: white;
    display: flex;
@@ -92,7 +98,7 @@
 
  }
 
- /*----testimonial-left section------*/
+
  .testimonial-left{
    width: 30%;
  }
@@ -169,7 +175,8 @@
  .game-col{
   background-color: white;
  }
-.utility col{
+
+ .Utility-col{
   background-color: white;
 }
 
@@ -197,7 +204,7 @@
   display: flex;
   justify-content: end;
    margin-bottom: 20px;
-   margin-right: 20px;
+   margin-right: 60px;
 }
  .All-courses-btn {
   background-color: #DA722C;
@@ -208,3 +215,182 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/*-----App Section-----*/
+.App-section{
+  text-align: center;
+  background-color: white;
+  color: #023047;
+}
+.App-section h2{
+  font-size: 40px;
+ color: #023047;
+ padding-top: 40px;
+ 
+}
+
+.logo-box{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.App-box{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding:  6px 40px;
+  
+}
+
+ .Google-box{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 6px 40px;
+ 
+ }
+ .App-text{
+  padding-left: 20px;
+ }
+
+ /*------Footer-------*/
+ .Footer{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+   background-color: #070917;
+   color: #DA722C;
+ }
+
+ .Footer ul{
+  list-style: none;
+}
+
+  .Footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+  
+
+/*-----Media Query------*/
+
+ /*-----Tablet--------*/
+
+@media screen and (max-width:768px) {
+  .hero-section{
+    display: block;
+   
+    padding-left: 78px;
+     
+  }
+  .left-side{
+   width:90% ;
+   padding-left: 45px;
+  }
+  .right-side{
+    width: 90%;
+  }
+  
+  /*-------Testimonial section--------*/
+  .testimonial-section{
+     
+      background-color: white;
+      display: block;
+     
+      padding: 50px;
+  }
+  .testimonial-left{
+    width:90%;
+    margin: 0px 30px;
+  }
+  .testimonial-right{
+    width: 60%;
+    margin: 0px 30px;
+  }
+ 
+  /*-----Row------*/
+    .row-courses{
+    display:block;
+    
+  }
+  /*----Footer---*/
+  .Footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+   .courses,.contacts{
+    width: 40%;
+   }
+   .contacts{
+    width: 100%;
+    padding-left: 60px;
+   }
+   .contacts ul{
+    padding: 0px;
+   }
+}
+
+
+/*========Mob=========*/
+@media screen and (max-width:500px) {
+  .nav-menu ul{
+    display: none;
+  }
+  .hero-section{
+    padding: 0px;
+  }
+  .left-side{
+    padding: 18px;
+  }
+
+  /*=====testimonial-section=======*/
+  .testimonial-section{
+    padding: 0px;
+  }
+  .testimonial-left{
+    margin: 0px 20px;
+    padding-top: 12px;
+  }
+  .testimonial-right{
+    width: 80%;
+    padding-bottom: 15px
+  }
+   .testimonial-left img{
+    width: 100%;
+   }
+  /*=====Courses Section=======*/
+     .game-col img{
+      width: 100%;
+      padding-bottom: 20px;
+     }
+     .Utility-col img{
+      width: 100%;
+     }
+     .text-sec h4{
+      font-size: 25px;
+     }
+
+     /*======Block-Section=======*/
+  .logo-box {
+      display: block;
+       
+     }
+     .App-box{
+      margin-bottom: 10px;
+     }  
+
+     .contacts{
+      padding: 0px;
+     }
+     .button-courses{
+      display: contents;
+       padding-top: 6px;
+    }
+}
+ 
